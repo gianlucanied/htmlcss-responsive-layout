@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.logo-header{
+    width: 100%;
+}
+
+.section-header{
+    padding: 3%;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 5%;
+    color: rgb(0, 76, 255);
+}
+
+.container {
+    width: 90%;
+    margin: 5%;
+    padding: 0 20px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.col{
+    background-color: rgb(107, 198, 255);
+}
+
+.text{
+    padding: 10% 5%;
+    color: rgb(27, 27, 27);
+}
+
+.text-center {
+    text-align: left;
+}
+
+.lessons .col {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.lessons .col img {
+    height: 300px;
+    padding-left: 15%;
+    margin-bottom: -5px;
+}
+
+#apple{
+    display: block;
+    margin: 10% 20%;
+    background-color: blue;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
