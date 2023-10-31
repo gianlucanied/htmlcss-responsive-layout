@@ -72,6 +72,10 @@ h2 {
     width: 100%;
 }
 
+.col p{
+    text-align: center;
+}
+
 /*version tablet*/
 
 @media all and (min-width: 481px){
@@ -86,11 +90,11 @@ h2 {
 
     #demo{
         width: calc((100% / 3) * 2);
-
     }
 
-
 }
+
+/* desktop version*/
 
 @media all and (min-width: 1200px){
     
@@ -99,4 +103,68 @@ h2 {
         margin: 0 auto;
 }
 
+}
+
+#strategic{
+    width: 100%;
+    padding: 15%;
+    background-color: violet;
+}
+
+#strategic img{
+    width: 100%;
+}
+
+#section-app{
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+.strategic-section p{
+    color: white;
+}
+
+h3{
+    margin: 20px 0;
+    font-size: 30px;
+    color: white;
+}
+
+#section-app h3{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#section-app p{
+    color: black;
+    font-style: oblique;
+    text-align: center;
+}
+
+#arrow-down{
+    background-color: violet;
+    border-radius: 25px;
+    margin: 10% 45%;
+    padding: 15px;
+}
+
+
+/*desktop version*/
+
+@media all and (min-width: 1200px){
+
+    #strategic{
+        display: flex;
+    }
+}
+
+.section-testimonial{
+    width: 100%;
+}
+
+.testimonial{
+    width: 70%;
 }
