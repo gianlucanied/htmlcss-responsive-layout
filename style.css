@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     background-color: blue;
+    margin-bottom: 40px;
 }
 
 .logo-header{
@@ -16,52 +17,14 @@
 }
 
 .section-header{
-    padding: 3%;
+    padding: 20px;
     font-size: 30px;
     color: white;
 }
 
-h2 {
-    font-size: 2rem;
-    padding: 5%;
-    color: rgb(0, 76, 255);
-}
-
-.container {
-    width: 90%;
-    margin: 5%;
-    padding: 0 20px;
-    display: flex;
-
-}
-
-.row {
-    display: flex;
-}
-
-.col{
-    background-color: rgb(107, 198, 255);
-    margin: 10%;
-}
-
-.text{
-    padding: 10% 5%;
-    color: rgb(27, 27, 27);
-}
-
-.text-center {
-    text-align: left;
-}
-
-.lessons .col {
-    width: 100%;
-    border-radius: 20px;
-}
-
-.lessons .col img {
-    height: 300px;
-    padding-left: 15%;
-    margin-bottom: -5px;
+:root{
+    font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 #apple{
@@ -73,21 +36,67 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 20px;
+    width: 170px;
+}
+
+.col{
+    background-color: rgb(107, 198, 255);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h2 {
+    color: rgb(0, 76, 255);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #font-awesome-1{
-    font-size: 85px;
-    margin: 20% 0 10% 37%;
+    font-size: 60px;
+    margin: 20% 20% 20% 36%;
 }
 
-.text-section{
-    padding: 5% 10%;
-    color: rgb(27, 27, 27);
-    text-align: center;
+
+/*mobile version*/
+
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 
-.title-section{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 5%;
+.col{
+    margin-bottom: 50px;
+}
+
+.col img{
+    width: 100%;
+}
+
+/*version tablet*/
+
+@media all and (min-width: 481px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(100% / 3);
+    }
+
+    #demo{
+        width: calc((100% / 3) * 2);
+
+    }
+
+
+}
+
+@media all and (min-width: 1200px){
+    
+    .container{
+        width: 70%;
+        margin: 0 auto;
+}
+
 }
