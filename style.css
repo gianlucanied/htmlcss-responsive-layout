@@ -108,10 +108,14 @@ h2 {
 #strategic{
     width: 100%;
     padding: 15%;
-    background-color: violet;
+    background-color: #9593e6;
 }
 
 #strategic img{
+    width: 100%;
+}
+
+.strategic-section{
     width: 100%;
 }
 
@@ -120,6 +124,7 @@ h2 {
     border-radius: 30px;
     margin-top: 40px;
     padding: 25px;
+    margin-left: 10%;
 }
 
 .strategic-section p{
@@ -145,10 +150,19 @@ h3{
 }
 
 #arrow-down{
-    background-color: violet;
+    background-color: #9593e6;
     border-radius: 25px;
     margin: 10% 45%;
     padding: 15px;
+}
+
+/*tablet versione*/
+
+@media all and (min-width: 481px){
+   .strategic-section{
+    width: 100%;
+   }
+
 }
 
 
@@ -163,8 +177,55 @@ h3{
 
 .section-testimonial{
     width: 100%;
+    padding: 0 20%;
 }
 
 .testimonial{
-    width: 70%;
+    width: 100%;
+    background-color:#9593e6;
+    margin: 10% 0;
+    border-radius: 10%;
+    padding: 10% 5%;
+}
+
+.section-testimonial h3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.section-testimonial h1{
+    color: #9593e6;
+    text-align: center;
+    padding: 10% 0;
+}
+
+.section-testimonial p{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+}
+
+.testimonial-img{
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.testimonial-img img{
+    width: 100%;
+}
+
+.testimonial h2{
+    color: white;
+    margin-top: 10%;
+}
+
+/*version tablet*/
+@media all and (min-width: 481px){
+    .section-testimonial{
+
+
 }
